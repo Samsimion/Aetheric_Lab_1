@@ -5,6 +5,7 @@ import {
   FaYoutube,
 } from "react-icons/fa6";
 import { Link } from "react-router";
+import logo from "../assets/logo.png";
 
 const Footer = () => {
   return (
@@ -18,9 +19,9 @@ const Footer = () => {
           <div className="col-span-2 md:col-span-1">
             <Link to="/" className="inline-flex items-center">
               <img
-                src="/src/assets/logo.png"
+                src={logo}
                 alt="Aetheric Labs"
-                className="h-10 w-auto object-contain"
+                className="h-20 w-auto object-contain"
               />
             </Link>
             <p className="mt-3 text-xs leading-relaxed text-slate-400">
