@@ -17,11 +17,12 @@ const HomeCTA = () => {
           {/* Text */}
           <div>
             <div className="mb-5 flex items-center gap-3">
-              <span className="h-px w-10 bg-[#1677FF]" />
+              <span className="h-px w-10 bg-gradient-to-r from-blue-600 via-blue-500/70 to-transparent" />
 
               <span className="text-xs font-bold uppercase tracking-[0.24em] text-[#1677FF]">
                 Have an idea?
               </span>
+              <span className="h-px w-10 bg-gradient-to-l from-blue-600 via-blue-500/70 to-transparent" />
             </div>
 
             <h2 className="text-4xl font-semibold leading-[1.05] tracking-[-0.045em] sm:text-5xl lg:text-6xl">

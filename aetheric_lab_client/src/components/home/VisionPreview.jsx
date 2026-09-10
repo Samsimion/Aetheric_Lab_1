@@ -18,12 +18,14 @@ const VisionPreview = () => {
           {/* Text */}
           <div>
             <div className="flex items-center gap-4">
-  <span className="h-px w-14 bg-gradient-to-r from-blue-600 via-blue-500/70 to-transparent"></span>
+            <span className="h-px w-14 bg-gradient-to-r from-blue-600 via-blue-500/70 to-transparent"></span>
 
-  <span className="text-xs font-semibold tracking-[0.3em] text-blue-600">
-    OUR VISION
-  </span>
-</div>
+            <span className="text-xs font-semibold tracking-[0.3em] text-blue-600">
+              OUR VISION
+            </span>
+            <span className="h-px w-10 bg-gradient-to-l from-blue-600 via-blue-500/70 to-transparent" />
+
+          </div>
 
             <h2 className="max-w-2xl text-4xl font-semibold leading-[1.04] tracking-[-0.045em] sm:text-5xl lg:text-6xl">
               Technology should
