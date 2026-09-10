@@ -24,7 +24,7 @@ const Footer = () => {
                 className="h-20 w-auto object-contain"
               />
             </Link>
-            <p className="mt-3 text-xs leading-relaxed text-slate-400">
+            <p className="mt-3 text-sm leading-relaxed font-bold text-slate-400">
               Technology. Innovation. Impact. Building digital solutions that scale.
             </p>
             <div className="mt-4 flex gap-2">
