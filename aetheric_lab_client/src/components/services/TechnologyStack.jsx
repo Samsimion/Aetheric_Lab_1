@@ -26,7 +26,7 @@ const TechnologyStack = () => {
 
           <div>
             <div className="flex items-center gap-3">
-              <span className="h-px w-10 bg-[#1677FF]" />
+              <span className="h-px w-14 bg-gradient-to-r from-blue-600 via-blue-500/70 to-transparent"></span>
 
               <span className="text-xs font-bold uppercase tracking-[0.24em] text-[#1677FF]">
                 Built With Modern Technology

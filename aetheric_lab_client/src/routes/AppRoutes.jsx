@@ -68,6 +68,8 @@ import SolutionDetail from "../pages/SolutionDetail";
 import ProductDetail from "../pages/ProductDetail";
 
 
+import WebsiteDevelopment from "../pages/WebsiteDevelopment";
+
 const router = createBrowserRouter([
   /* =====================================================
      HOME
@@ -114,9 +116,17 @@ const router = createBrowserRouter([
   },
 
   {
+    path : "/services/websites",
+    Component : WebsiteDevelopment,
+  },
+
+  {
     path: "/services/:service",
     Component: ServiceDetail,
   },
+
+
+
   {
     path: "/pricing",
     Component: Pricing,
@@ -152,6 +162,59 @@ const router = createBrowserRouter([
   {
     path: "/products/:product",
     Component: ProductDetail,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
   },
 
 
@@ -176,3 +239,10 @@ const router = createBrowserRouter([
 ]);
 
 export default router;
+
+
+
+// <Route
+//   path="/services/websites"
+//   element={<WebsiteDevelopment />}
+// />

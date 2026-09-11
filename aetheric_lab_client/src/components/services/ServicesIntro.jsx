@@ -12,6 +12,7 @@ const ServicesIntro = () => {
         <div className="grid items-center gap-12 lg:grid-cols-[1fr_1.25fr]">
 
           <div>
+            
             <SectionLabel text="Beyond Software" />
 
             <h2 className="mt-5 max-w-xl text-4xl font-semibold leading-[1.05] tracking-[-0.045em] text-[#0B1B34] sm:text-5xl">
@@ -62,15 +63,16 @@ const ServicesIntro = () => {
 
 
 const SectionLabel = ({ text }) => (
-  <div className="flex items-center gap-3">
-    <span className="h-px w-10 bg-[#1677FF]" />
+  <div className="flex items-center gap-4">
+    <span className="h-px w-12 bg-gradient-to-l from-transparent to-[#1677FF]" />
 
     <span className="text-xs font-bold uppercase tracking-[0.24em] text-[#1677FF]">
       {text}
     </span>
+
+    <span className="h-px w-12 bg-gradient-to-l from-[#1677FF] to-transparent" />
   </div>
 );
-
 
 const Principle = ({ number, icon, title, text }) => (
   <div className="border-r border-[#D8E3F0] px-6 py-8 first:pl-0 last:border-r-0">

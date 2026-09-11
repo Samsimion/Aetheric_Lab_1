@@ -37,11 +37,12 @@ const WhyAetheric = () => {
 
           <div>
             <div className="flex items-center gap-3">
-              <span className="h-px w-10 bg-[#1677FF]" />
+              <span className="h-px w-14 bg-gradient-to-r from-blue-600 via-blue-500/70 to-transparent"></span>
 
               <span className="text-xs font-bold uppercase tracking-[0.24em] text-[#5EA2FF]">
                 Why Aetheric
               </span>
+              <span className="h-px w-14 bg-gradient-to-l from-blue-600 via-blue-500/70 to-transparent"></span>
             </div>
 
             <h2 className="mt-5 text-4xl font-semibold leading-[1.05] tracking-[-0.04em] sm:text-5xl">

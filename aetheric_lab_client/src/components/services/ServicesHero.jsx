@@ -12,19 +12,21 @@ const ServicesHero = () => {
         <div className="absolute right-[15%] top-[-100px] h-[600px] w-[600px] rounded-full border border-[#7657E8]/10" />
       </div>
 
-      <div className="relative mx-auto max-w-7xl px-6 pb-20 pt-36 sm:px-8 lg:px-12 lg:pb-24 lg:pt-40">
-
-        <div className="grid items-center gap-14 lg:grid-cols-[0.95fr_1.05fr]">
+      <div className="relative mx-auto max-w-7xl px-6 pb-10 pt-24 sm:px-8 lg:px-12 lg:pb-12 lg:pt-28">
+        <div className="grid items-center gap-8 lg:grid-cols-[0.95fr_1.05fr] lg:gap-10">
 
           {/* LEFT */}
           <div>
 
             <div className="mb-6 flex items-center gap-3">
-              <span className="h-px w-10 bg-[#1677FF]" />
+              <span className="h-px w-14 bg-gradient-to-r from-blue-600 via-blue-500/70 to-transparent"></span>
+
 
               <span className="text-xs font-bold uppercase tracking-[0.25em] text-[#5EA2FF]">
                 Aetheric Digital Solutions
               </span>
+              <span className="h-px w-14 bg-gradient-to-l from-blue-600 via-blue-500/70 to-transparent"></span>
+
             </div>
 
             <h1 className="max-w-3xl text-5xl font-semibold leading-[1.02] tracking-[-0.05em] sm:text-6xl lg:text-[4.5rem]">
@@ -88,10 +90,10 @@ const ServicesHero = () => {
 
 
           {/* RIGHT VISUAL */}
-          <div className="relative min-h-[430px] lg:min-h-[520px]">
+          <div className="relative min-h-[370px] lg:min-h-[430px]">
 
             {/* Main laptop */}
-            <div className="absolute right-0 top-8 w-[92%] overflow-hidden rounded-2xl border border-white/15 bg-[#0D1B2E] shadow-2xl shadow-black/40">
+            <div className="absolute right-0 top-2 w-[92%] overflow-hidden rounded-2xl border border-white/15 bg-[#0D1B2E] shadow-2xl shadow-black/40">
 
               <div className="flex h-8 items-center gap-1.5 border-b border-white/10 px-4">
                 <span className="h-2 w-2 rounded-full bg-white/20" />
@@ -140,7 +142,7 @@ const ServicesHero = () => {
 
 
             {/* Phone */}
-            <div className="absolute bottom-5 left-0 w-36 overflow-hidden rounded-[1.7rem] border-4 border-[#14253A] bg-[#0D1B2E] shadow-2xl shadow-black/50 sm:w-40">
+            <div className="absolute bottom-1 left-0 w-36 overflow-hidden rounded-[1.7rem] border-4 border-[#14253A] bg-[#0D1B2E] shadow-2xl shadow-black/50 sm:w-40">
 
               <div className="h-7 bg-[#14253A]" />
 
@@ -162,7 +164,7 @@ const ServicesHero = () => {
 
 
             {/* Floating analytics card */}
-            <div className="absolute bottom-14 right-[-10px] w-52 rounded-xl border border-white/10 bg-[#102137]/95 p-5 shadow-2xl backdrop-blur-xl sm:w-60">
+            <div className="absolute bottom-8 right-[-10px] w-52 rounded-xl border border-white/10 bg-[#102137]/95 p-5 shadow-2xl backdrop-blur-xl sm:w-60">
 
               <div className="flex items-center justify-between">
                 <p className="text-xs text-slate-400">
