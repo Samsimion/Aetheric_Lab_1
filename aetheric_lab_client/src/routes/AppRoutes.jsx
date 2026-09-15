@@ -29,6 +29,7 @@ import MobileApplications from "../pages/MobileApplications";
 import BusinessSystems from '../pages/BusinessSystems'
 import UIUXDesigns from "../pages/UIUXDesigns";
 import APIsIntegrations from "../pages/APIsIntegrations";
+// import Solutions from "./pages/Solutions";
 
 const router = createBrowserRouter([
   /* =====================================================
@@ -116,6 +117,11 @@ const router = createBrowserRouter([
   {
     path: "services/apis-integrations",
     Component: APIsIntegrations,
+  },
+
+  {
+    path: "services/solutions",
+    Component: Solutions,
   },
 
 
