@@ -1,52 +1,4 @@
-// import { createBrowserRouter } from "react-router";
-
-// import Home from "../pages/Home";
-// import About from "../pages/About";
-// import Services from "../pages/Services";
-// import Products from "../pages/Products";
-// import Portfolio from "../pages/Portfolio";
-// import Insights from "../pages/Insights";
-// import Contact from "../pages/Contact";
-
-// const router = createBrowserRouter([
-//   {
-//     path: "/",
-//     Component: Home,
-//   },
-//   {
-//     path: "/about",
-//     Component: About,
-//   },
-//   {
-//     path: "/services/:service",
-//     Component: ServiceDetail,
-//   },
-//   {
-//     path: "/solutions/:solution",
-//     Component: SolutionDetail,
-//   },
-//   {
-//     path: "/products/:product",
-//     Component: ProductDetail,
-//   },
-//   {
-//     path: "/portfolio",
-//     Component: Portfolio,
-//   },
-//   {
-//     path: "/insights",
-//     Component: Insights,
-//   },
-//   {
-//     path: "/contact",
-//     Component: Contact,
-//   },
-// ]);
-
-// export default router;
-
-
-// // future 
+ // future 
 
 import { createBrowserRouter } from "react-router";
 
@@ -68,7 +20,15 @@ import SolutionDetail from "../pages/SolutionDetail";
 import ProductDetail from "../pages/ProductDetail";
 
 
+
+// services
+
 import WebsiteDevelopment from "../pages/WebsiteDevelopment";
+import WebApplications from "../pages/WebApplications";
+import MobileApplications from "../pages/MobileApplications";
+import BusinessSystems from '../pages/BusinessSystems'
+import UIUXDesigns from "../pages/UIUXDesigns";
+import APIsIntegrations from "../pages/APIsIntegrations";
 
 const router = createBrowserRouter([
   /* =====================================================
@@ -130,6 +90,32 @@ const router = createBrowserRouter([
   {
     path: "/pricing",
     Component: Pricing,
+  },
+
+
+
+  {
+    path: "/services/web-applications",
+    Component: WebApplications,
+  },
+
+  {
+    path: "services/mobile-applications",
+    Component: MobileApplications,
+  },
+
+  {
+    path: "services/business-systems",
+    Component: BusinessSystems,
+  },
+
+  {
+    path: "services/ui-ux",
+    Component: UIUXDesigns,
+  },
+  {
+    path: "services/apis-integrations",
+    Component: APIsIntegrations,
   },
 
 
