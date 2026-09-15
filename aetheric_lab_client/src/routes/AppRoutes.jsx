@@ -21,6 +21,7 @@ import ProductDetail from "../pages/ProductDetail";
 
 
 
+
 // services
 
 import WebsiteDevelopment from "../pages/WebsiteDevelopment";
@@ -148,11 +149,11 @@ const router = createBrowserRouter([
     path: "/products",
     Component: Products,
   },
-
+ 
 
 
   {
-    path: "/products/:product",
+    path: "/products/:products",
     Component: ProductDetail,
 
 
