@@ -3,7 +3,8 @@ import { Link } from "react-router";
 
 const SolutionsCTA = () => {
   return (
-    <section className="relative overflow-hidden bg-[#07111F] text-white">
+    // <section className="relative overflow-hidden bg-[#07111F] text-white">
+    <section className="relative overflow-hidden bg-[#EEF6FF] text-[#0B1B34]">
       <div className="pointer-events-none absolute right-0 top-0 h-full w-1/2 opacity-40">
         <div className="absolute right-[-180px] top-1/2 h-[500px] w-[500px] -translate-y-1/2 rounded-full border border-[#1677FF]/30" />
 

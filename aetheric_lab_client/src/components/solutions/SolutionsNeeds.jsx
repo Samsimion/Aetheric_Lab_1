@@ -42,8 +42,9 @@ const SolutionsNeeds = () => {
   ];
 
   return (
-    <section className="bg-[#EEF6FF] text-[#0B1B34]">
-      <div className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-12 lg:py-20">
+    <section className="bg-white text-[#0B1B34]">
+      {/* <div className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-12 lg:py-20"> */}
+      <div className="mx-auto max-w-7xl px-6 py-14 sm:px-8 lg:px-12 lg:py-16">
         <div className="grid gap-12 lg:grid-cols-[0.7fr_1.3fr] lg:items-center">
           
           <div>
@@ -67,7 +68,8 @@ const SolutionsNeeds = () => {
             {needs.map(({ icon: Icon, title, text }) => (
               <div
                 key={title}
-                className="flex gap-4 rounded-2xl border border-[#D9E8F8] bg-white p-5 transition hover:-translate-y-0.5 hover:shadow-lg"
+                // className="flex gap-4 rounded-2xl border border-[#D9E8F8] bg-white p-5 transition hover:-translate-y-0.5 hover:shadow-lg"
+                className="flex gap-4 rounded-2xl border border-[#D9E8F8] bg-[#F5F9FE] p-5 transition hover:-translate-y-0.5 hover:shadow-lg"
               >
                 <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-[#EDF5FF] text-[#1677FF]">
                   <Icon size={21} strokeWidth={1.8} />

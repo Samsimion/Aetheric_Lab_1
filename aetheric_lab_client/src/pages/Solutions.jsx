@@ -29,4 +29,4 @@ const Solutions = () => {
   );
 };
 
-export default Solutions;
+export default Solutions; 
